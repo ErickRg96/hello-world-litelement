@@ -5,7 +5,7 @@ import "./my-list";
 
 // Create a class form your component and extend the LitElement
 class MyApp extends LitElement {
-    static get proerties() {
+    static get properties() {
         return {
             items: { type: Array },
         };
